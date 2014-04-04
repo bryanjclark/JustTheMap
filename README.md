@@ -3,9 +3,7 @@ JustTheMap
 
 A quick little app to get clean map screenshots
 
-Sometimes, when you're designing an interface, you need a mapview to drop in to your screens - so you need a screenshot of a map.
-
-Except: Maps.app displays points of interest, buildings, and other things - and it has a status bar and a few other tidbits on the map.
+Sometimes, when you're designing an interface, you need a mapview to drop in to your screens - so you need a screenshot of a map. Except: Maps.app displays points of interest, buildings, and other things - and it has a status bar and a few other tidbits on the map.
 
 So, I made a suuuper tiny little universal app that works on iPhone and iPad. It just shows a big ol' map, without any status bar, points of interest, buildings, or the user's location:
 
