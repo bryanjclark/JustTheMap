@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5303BE6418EF68B7001D9393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5303BE6318EF68B7001D9393 /* Foundation.framework */; };
+		5303BE6618EF68B7001D9393 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5303BE6518EF68B7001D9393 /* CoreGraphics.framework */; };
+		5303BE6818EF68B7001D9393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5303BE6718EF68B7001D9393 /* UIKit.framework */; };
+		5303BE6E18EF68B7001D9393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5303BE6C18EF68B7001D9393 /* InfoPlist.strings */; };
+		5303BE7018EF68B7001D9393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5303BE6F18EF68B7001D9393 /* main.m */; };
+		5303BE7418EF68B7001D9393 /* BJCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5303BE7318EF68B7001D9393 /* BJCAppDelegate.m */; };
+		5303BE7618EF68B7001D9393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5303BE7518EF68B7001D9393 /* Images.xcassets */; };
+		5303BE7D18EF68B7001D9393 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5303BE7C18EF68B7001D9393 /* XCTest.framework */; };
+		5303BE7E18EF68B7001D9393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5303BE6318EF68B7001D9393 /* Foundation.framework */; };
+		5303BE7F18EF68B7001D9393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5303BE6718EF68B7001D9393 /* UIKit.framework */; };
+		5303BE8718EF68B7001D9393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5303BE8518EF68B7001D9393 /* InfoPlist.strings */; };
+		5303BE8918EF68B7001D9393 /* JustTheMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5303BE8818EF68B7001D9393 /* JustTheMapTests.m */; };
+		5303BE9418EF68C3001D9393 /* BJCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5303BE9318EF68C3001D9393 /* BJCMapViewController.m */; };
+		5303BE9618EF68D7001D9393 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5303BE9518EF68D7001D9393 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5303BE8018EF68B7001D9393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5303BE5818EF68B7001D9393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5303BE5F18EF68B7001D9393;
+			remoteInfo = JustTheMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5303BE6018EF68B7001D9393 /* JustTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5303BE6318EF68B7001D9393 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5303BE6518EF68B7001D9393 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5303BE6718EF68B7001D9393 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5303BE6B18EF68B7001D9393 /* JustTheMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JustTheMap-Info.plist"; sourceTree = "<group>"; };
+		5303BE6D18EF68B7001D9393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5303BE6F18EF68B7001D9393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5303BE7118EF68B7001D9393 /* JustTheMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JustTheMap-Prefix.pch"; sourceTree = "<group>"; };
+		5303BE7218EF68B7001D9393 /* BJCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJCAppDelegate.h; sourceTree = "<group>"; };
+		5303BE7318EF68B7001D9393 /* BJCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJCAppDelegate.m; sourceTree = "<group>"; };
+		5303BE7518EF68B7001D9393 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5303BE7B18EF68B7001D9393 /* JustTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5303BE7C18EF68B7001D9393 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5303BE8418EF68B7001D9393 /* JustTheMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JustTheMapTests-Info.plist"; sourceTree = "<group>"; };
+		5303BE8618EF68B7001D9393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5303BE8818EF68B7001D9393 /* JustTheMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustTheMapTests.m; sourceTree = "<group>"; };
+		5303BE9218EF68C3001D9393 /* BJCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCMapViewController.h; sourceTree = "<group>"; };
+		5303BE9318EF68C3001D9393 /* BJCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCMapViewController.m; sourceTree = "<group>"; };
+		5303BE9518EF68D7001D9393 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5303BE5D18EF68B7001D9393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5303BE9618EF68D7001D9393 /* MapKit.framework in Frameworks */,
+				5303BE6618EF68B7001D9393 /* CoreGraphics.framework in Frameworks */,
+				5303BE6818EF68B7001D9393 /* UIKit.framework in Frameworks */,
+				5303BE6418EF68B7001D9393 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5303BE7818EF68B7001D9393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5303BE7D18EF68B7001D9393 /* XCTest.framework in Frameworks */,
+				5303BE7F18EF68B7001D9393 /* UIKit.framework in Frameworks */,
+				5303BE7E18EF68B7001D9393 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5303BE5718EF68B7001D9393 = {
+			isa = PBXGroup;
+			children = (
+				5303BE6918EF68B7001D9393 /* JustTheMap */,
+				5303BE8218EF68B7001D9393 /* JustTheMapTests */,
+				5303BE6218EF68B7001D9393 /* Frameworks */,
+				5303BE6118EF68B7001D9393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5303BE6118EF68B7001D9393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5303BE6018EF68B7001D9393 /* JustTheMap.app */,
+				5303BE7B18EF68B7001D9393 /* JustTheMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5303BE6218EF68B7001D9393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5303BE9518EF68D7001D9393 /* MapKit.framework */,
+				5303BE6318EF68B7001D9393 /* Foundation.framework */,
+				5303BE6518EF68B7001D9393 /* CoreGraphics.framework */,
+				5303BE6718EF68B7001D9393 /* UIKit.framework */,
+				5303BE7C18EF68B7001D9393 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5303BE6918EF68B7001D9393 /* JustTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				5303BE7218EF68B7001D9393 /* BJCAppDelegate.h */,
+				5303BE7318EF68B7001D9393 /* BJCAppDelegate.m */,
+				5303BE9218EF68C3001D9393 /* BJCMapViewController.h */,
+				5303BE9318EF68C3001D9393 /* BJCMapViewController.m */,
+				5303BE7518EF68B7001D9393 /* Images.xcassets */,
+				5303BE6A18EF68B7001D9393 /* Supporting Files */,
+			);
+			path = JustTheMap;
+			sourceTree = "<group>";
+		};
+		5303BE6A18EF68B7001D9393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5303BE6B18EF68B7001D9393 /* JustTheMap-Info.plist */,
+				5303BE6C18EF68B7001D9393 /* InfoPlist.strings */,
+				5303BE6F18EF68B7001D9393 /* main.m */,
+				5303BE7118EF68B7001D9393 /* JustTheMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5303BE8218EF68B7001D9393 /* JustTheMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				5303BE8818EF68B7001D9393 /* JustTheMapTests.m */,
+				5303BE8318EF68B7001D9393 /* Supporting Files */,
+			);
+			path = JustTheMapTests;
+			sourceTree = "<group>";
+		};
+		5303BE8318EF68B7001D9393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5303BE8418EF68B7001D9393 /* JustTheMapTests-Info.plist */,
+				5303BE8518EF68B7001D9393 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5303BE5F18EF68B7001D9393 /* JustTheMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5303BE8C18EF68B7001D9393 /* Build configuration list for PBXNativeTarget "JustTheMap" */;
+			buildPhases = (
+				5303BE5C18EF68B7001D9393 /* Sources */,
+				5303BE5D18EF68B7001D9393 /* Frameworks */,
+				5303BE5E18EF68B7001D9393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustTheMap;
+			productName = JustTheMap;
+			productReference = 5303BE6018EF68B7001D9393 /* JustTheMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5303BE7A18EF68B7001D9393 /* JustTheMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5303BE8F18EF68B7001D9393 /* Build configuration list for PBXNativeTarget "JustTheMapTests" */;
+			buildPhases = (
+				5303BE7718EF68B7001D9393 /* Sources */,
+				5303BE7818EF68B7001D9393 /* Frameworks */,
+				5303BE7918EF68B7001D9393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5303BE8118EF68B7001D9393 /* PBXTargetDependency */,
+			);
+			name = JustTheMapTests;
+			productName = JustTheMapTests;
+			productReference = 5303BE7B18EF68B7001D9393 /* JustTheMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5303BE5818EF68B7001D9393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BJC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bryanjclark;
+				TargetAttributes = {
+					5303BE7A18EF68B7001D9393 = {
+						TestTargetID = 5303BE5F18EF68B7001D9393;
+					};
+				};
+			};
+			buildConfigurationList = 5303BE5B18EF68B7001D9393 /* Build configuration list for PBXProject "JustTheMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5303BE5718EF68B7001D9393;
+			productRefGroup = 5303BE6118EF68B7001D9393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5303BE5F18EF68B7001D9393 /* JustTheMap */,
+				5303BE7A18EF68B7001D9393 /* JustTheMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5303BE5E18EF68B7001D9393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5303BE6E18EF68B7001D9393 /* InfoPlist.strings in Resources */,
+				5303BE7618EF68B7001D9393 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5303BE7918EF68B7001D9393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5303BE8718EF68B7001D9393 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5303BE5C18EF68B7001D9393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5303BE7418EF68B7001D9393 /* BJCAppDelegate.m in Sources */,
+				5303BE7018EF68B7001D9393 /* main.m in Sources */,
+				5303BE9418EF68C3001D9393 /* BJCMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5303BE7718EF68B7001D9393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5303BE8918EF68B7001D9393 /* JustTheMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5303BE8118EF68B7001D9393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5303BE5F18EF68B7001D9393 /* JustTheMap */;
+			targetProxy = 5303BE8018EF68B7001D9393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5303BE6C18EF68B7001D9393 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5303BE6D18EF68B7001D9393 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5303BE8518EF68B7001D9393 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5303BE8618EF68B7001D9393 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5303BE8A18EF68B7001D9393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5303BE8B18EF68B7001D9393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5303BE8D18EF68B7001D9393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustTheMap/JustTheMap-Prefix.pch";
+				INFOPLIST_FILE = "JustTheMap/JustTheMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5303BE8E18EF68B7001D9393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustTheMap/JustTheMap-Prefix.pch";
+				INFOPLIST_FILE = "JustTheMap/JustTheMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5303BE9018EF68B7001D9393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JustTheMap.app/JustTheMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustTheMap/JustTheMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JustTheMapTests/JustTheMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5303BE9118EF68B7001D9393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JustTheMap.app/JustTheMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustTheMap/JustTheMap-Prefix.pch";
+				INFOPLIST_FILE = "JustTheMapTests/JustTheMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5303BE5B18EF68B7001D9393 /* Build configuration list for PBXProject "JustTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5303BE8A18EF68B7001D9393 /* Debug */,
+				5303BE8B18EF68B7001D9393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5303BE8C18EF68B7001D9393 /* Build configuration list for PBXNativeTarget "JustTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5303BE8D18EF68B7001D9393 /* Debug */,
+				5303BE8E18EF68B7001D9393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5303BE8F18EF68B7001D9393 /* Build configuration list for PBXNativeTarget "JustTheMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5303BE9018EF68B7001D9393 /* Debug */,
+				5303BE9118EF68B7001D9393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5303BE5818EF68B7001D9393 /* Project object */;
+}
