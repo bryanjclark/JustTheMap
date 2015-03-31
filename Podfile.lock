@@ -1,0 +1,13 @@
+PODS:
+  - HexColors (2.2.1)
+  - Tweaks (1.1.0)
+
+DEPENDENCIES:
+  - HexColors (~> 2.2)
+  - Tweaks (~> 1.1)
+
+SPEC CHECKSUMS:
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  Tweaks: fea40672d34a7185051b7786be0d587cd76d253c
+
+COCOAPODS: 0.35.0
