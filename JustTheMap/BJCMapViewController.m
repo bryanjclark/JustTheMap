@@ -53,7 +53,21 @@
     // Use these properties to toggle the appearance of things on your map.
     self.mapView.showsBuildings = FBTweakValue(@"Map View", @"Annotations", @"Buildings", NO);
     self.mapView.showsPointsOfInterest = FBTweakValue(@"Map View", @"Annotations", @"Points of Interest", NO);
-    
+    BOOL shouldShowSatellite = FBTweakValue(@"Map View", @"Map Type (Don't Select Both!)", @"Satellite", NO);
+    BOOL shouldShowHybrid = FBTweakValue(@"Map View", @"Map Type (Don't Select Both!)", @"Hybrid", NO);
+    if (shouldShowHybrid && shouldShowSatellite) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Can't have your cake and eat it too!" message:@"Choose Satellite or Hybrid, but not both, k? Shake that phone!" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+        [alert show];
+    } else {
+        if (shouldShowSatellite) {
+            self.mapView.mapType = MKMapTypeSatellite;
+        } else if (shouldShowHybrid) {
+            self.mapView.mapType = MKMapTypeHybrid;
+        } else {
+            self.mapView.mapType = MKMapTypeStandard;
+        }
+    }
+
     BOOL shouldShowUserLocation = FBTweakValue(@"Map View", @"Annotations", @"User Location", NO);
     if (shouldShowUserLocation) {
         self.locationManager = [CLLocationManager new];
