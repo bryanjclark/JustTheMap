@@ -8,14 +8,15 @@
 
 #import "BJCAppDelegate.h"
 #import "BJCMapViewController.h"
-
+#import <Tweaks/FBTweakShakeWindow.h>
 
 @implementation BJCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[FBTweakShakeWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [BJCMapViewController new];
     [self.window makeKeyAndVisible];
